@@ -79,7 +79,6 @@ def compare_master():
 
 
 def display_error(parent, message):
-    print(message)
     error_window = Gtk.Window(title="Błąd")
     label = Gtk.Label()
     label.set_text(message)
